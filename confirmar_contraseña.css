@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../confirmar_contraseña/images/fondos.png);
+}
+
+.container {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.mostrarContraseñas {
+    padding: 30px;
+}
+
+.form-group {
+    position: relative;
+    right: 50px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    left: 50px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    left: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ad0000;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+.boton {
+    background-size: 49px;
+    background-image:url(../inicio_logueado/images/LOGIN\(LOGO\ CASA\).png);   
+    transform: translateY(30%);
+    border-radius: 35%;
+    border: 0; 
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+        
+}
